@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head><title>VewMet</title>
+	<link rel="shortcut icon" type="image/png" href="vewmet%20red.png" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="vewmet.css">
+</head>
+<body>
+	<div id="inside">
+		<div id="loginBox" align="left">
+			<img src="vid-logo.svg">
+		</div>
+		<div id="line"></div>
+		<div id="new">
+		<h2><center><i>Welcome to </i><font class="n" color="red">VewMet</font></center></h2>
+		<a href="#" class="button"><b>Get Inside VewMet</b></a>
+		</div>
+	</div>
+	<div id="login">
+		<div id="loginBox" align="left">
+			<form>
+				<input type="text" class="a" name="" placeholder="Username"><br>
+				<input type="password" class="a" name="" placeholder="Password"><br>
+				<center><input type="submit" name="" class="b" value="Sign In"></center>
+			</form>
+		</div>
+		<div id="line"></div>
+		<div id="new">
+			<h2 style="padding: 0px;margin: 0px;">Our Mission :</h2>
+				<b><font color="red" size="4px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut 
+				</font><br><br><br></b>
+				<font color="white" size="4px">I am new to it </font>
+				<a href="#" class="button"><b>Join Me</b></a>
+		</div>
+	</div>
+</body>
+
+<script>
+$(document).ready(function(){
+    $("#inside>#new>a").click(function(){
+        $("#inside").fadeToggle("3000");
+        var x = document.getElementById("login");
+        x.style.display = "block";
+    });
+});
+</script>
+</html>

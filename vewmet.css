@@ -1,0 +1,105 @@
+body  {
+    background-image: url("beard-black-and-white-black-and-white-632302.jpg");
+    background-size:100% auto;
+    background-color: #000000;
+    background-repeat:no-repeat;
+
+}
+
+.logo{
+    width: 200px;
+}
+.button {
+    animation: fadein 8s;
+    background-color: red;
+    border-radius:9px;
+    color: white;
+    padding: 1% 4%;
+    text-align: center;
+    text-decoration: none;
+    display: auto;
+    font-size: 20px;
+}
+a:hover{
+    opacity:.8; 
+}
+img {animation: fadein 8s;
+    position: absolute;
+    width:100%;
+}
+h2{
+    animation: fadein 8s;
+    position: relative;
+    color: white;
+    font-size: 50px;
+    padding-top: 1%;
+}
+.n{
+   animation: fadein 10s;
+}
+@keyframes fadein {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+#login
+{
+    display: none;
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 50%; 
+    padding: 10px;
+    opacity: .4;
+}
+#inside
+{
+    margin-top: 10%;
+    height: 50%; 
+    padding: 10px;
+    opacity: .4;
+}
+#loginBox{
+    animation: fadein 8s;
+    position: absolute;
+    width: 20%;
+}
+.a{
+    width: 100%;
+    border-radius: 8px;
+    border-color: red;
+    padding: 10px;
+    margin: 15px;
+}
+.b{
+    border: 1px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+}
+.b:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#line{animation: fadein 8s;
+    position: absolute;
+    width: 1px;
+    margin-left: 30%;
+    background-color: grey;
+    height: 250px;
+}
+#new{animation: fadein 8s;
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 10%;
+    margin-top: 0;
+}
+@media screen and (orientation:portrait)
+{
+#new{
+	margin-left: 30%;
+    margin-right: 0%;
+    font-size: 70%;
+}
+.button {
+    font-size: 15px;
+}
+}
